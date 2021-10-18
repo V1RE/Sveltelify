@@ -1,0 +1,14 @@
+backend:
+  name: git-gateway
+  branch: main
+collections:
+  - name: pages
+    label: Pages
+    folder: src/routes
+    slug: "{{slug}}" 
+    create: true
+    fields:
+      - { label: "Titel", name: "title", widget: "string"}
+
+media_folder: "static/uploads"
+public_folder: "/uploads"

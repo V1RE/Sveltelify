@@ -1,8 +1,8 @@
 .DS_Store
 node_modules
-/build
+build
+functions
 /.svelte-kit
 /package
 package-lock.json
-
 yarn-error.log

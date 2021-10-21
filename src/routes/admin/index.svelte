@@ -1,9 +1,9 @@
 <script>
-	import { onMount } from 'svelte';
-	import 'netlify-identity-widget';
+  import { onMount } from 'svelte';
+  import 'netlify-identity-widget';
+  import CMS from 'netlify-cms-app';
 
-	onMount(async () => {
-		const CMS = await import('netlify-cms-app');
-		CMS.init();
-	});
+  onMount(() => {
+    CMS.init();
+  });
 </script>
